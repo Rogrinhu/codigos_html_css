@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+                table {
+                    align-items: center;
+            width: 98%;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+
+        th, td {
+            border: 1px solid #181818;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 768px) {
+            table {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            table {
+                font-size: 14px;
+            }
+        }
+        body{
+            font-family:sans-serif ;
+        }
+
+        table td, table th{
+            border: 1px solid #000000;
+            padding: 8px;
+        }
+
+        thead td, thead th{
+            background-color: #616161;
+            font-style: oblique;
+            padding: 5px;
+        }
+
+        tbody td, tbody th{
+            padding: 5px;
+
+        }
+
+        tfoot td, tfoot th{
+            background: #8f8f8f;
+            font-style: italic;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1> Tabela com linguagens e expectativas sobre elas </h1>
+   <div class="responsive-table">
+
+        <table>
+            <thead>
+                <tr> 
+                    <th>Linguagens</th>
+                    <th>Opinião</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Tenho muito interesse de aprender por ser da área que desejo seguir (Front-end) e porquê é uma linguagem que adiciona inúmeras possibilidades de ações para serem executadas juntamente ao HTML e o CSS.</td>
+
+                </tr>
+
+                <tr>
+                    <td>Java</td>
+                    <td>Confesso que não é uma linguagem muito atrativa para mim mas sei de sua importância não só para o aprendizado mas também para a integração ao mercado de trabalho por ser uma das linguagens mais utilizadas no mercado.</td>
+                </tr>
+
+                <tr>
+                    <td>PHP</td>
+                    <td>Não sei muito sobre a linguagem mas sei que pode ser integrada a sites para a criação de conteúdos  dinâmicos assim como o Javascript.</td>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Linguagem muito atrativa e que se encontra em alta no mercado por sua versatilidade e por suas aplicações na criação de IAs. </td>
+                </tr>
+
+                <tr>
+                    <td>C#</td>
+                    <td>Uma linguagem orientada a objetos e a componentes, hoje em dia muito utilizada na criação de jogos.</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>React.</td>
+                    <td>Acredito ser um framework muito útil por estar sendo constantemente atualizado trazendo melhorias dos próprios usuários já que é uma ferramenta de código aberto. É interessante ser abordado em sala por ser integrado não só a aplicações em web mas também em aplicativos mobile.</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+
+
+</html>
